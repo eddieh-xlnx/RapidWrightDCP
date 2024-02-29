@@ -8,6 +8,7 @@
   (program "Vivado" (version "2021.2"))
   (comment "Built on 'Tue Oct 19 02:47:39 MDT 2021'")
   (comment "Built by 'xbuild'")
+  (comment "Here's some Unicode: àâæçéèêëœîïôùûÜüÿ")
  )
 )
   (Library work
