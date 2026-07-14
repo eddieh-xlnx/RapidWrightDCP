@@ -1,0 +1,149 @@
+begin block
+  name design
+  pblocks 1
+  clocks 0
+  inputs 4
+  outputs 15
+
+  begin pblock
+    name pblock_1 
+    grid_ranges SLICE_X18Y293:SLICE_X21Y299
+  end pblock
+  connections implicit
+
+  begin input
+    name m6298d6f98b84fa89a3a081182fccdde60b453d97.port1_I$[0]
+    netname m6298d6f98b84fa89a3a081182fccdde60b453d97.port1_I$[0]
+    numprims 41
+    type input signal
+    maxdelay 7.151
+  end input
+  begin input
+    name m6298d6f98b84fa89a3a081182fccdde60b453d97.port1_I$[1]
+    netname m6298d6f98b84fa89a3a081182fccdde60b453d97.port1_I$[1]
+    numprims 31
+    type input signal
+    maxdelay 7.151
+  end input
+  begin input
+    name m6298d6f98b84fa89a3a081182fccdde60b453d97.port1_I$[2]
+    netname m6298d6f98b84fa89a3a081182fccdde60b453d97.port1_I$[2]
+    numprims 26
+    type input signal
+    maxdelay 7.151
+  end input
+  begin input
+    name m6298d6f98b84fa89a3a081182fccdde60b453d97.port1_I$[3]
+    netname m6298d6f98b84fa89a3a081182fccdde60b453d97.port1_I$[3]
+    numprims 21
+    type input signal
+    maxdelay 7.151
+  end input
+
+  begin output
+    name m6298d6f98b84fa89a3a081182fccdde60b453d97.port2_O$[0]
+    netname m6298d6f98b84fa89a3a081182fccdde60b453d97.port2_O$[0]
+    numprims 1
+    type output signal
+    maxdelay 7.151
+  end output
+  begin output
+    name m6298d6f98b84fa89a3a081182fccdde60b453d97.port2_O$[10]
+    netname <const0>
+    numprims 13
+    type output ground
+    maxdelay 0.000
+  end output
+  begin output
+    name m6298d6f98b84fa89a3a081182fccdde60b453d97.port2_O$[11]
+    netname <const0>
+    numprims 13
+    type output ground
+    maxdelay 0.000
+  end output
+  begin output
+    name m6298d6f98b84fa89a3a081182fccdde60b453d97.port2_O$[12]
+    netname <const0>
+    numprims 13
+    type output ground
+    maxdelay 0.000
+  end output
+  begin output
+    name m6298d6f98b84fa89a3a081182fccdde60b453d97.port2_O$[13]
+    netname <const0>
+    numprims 13
+    type output ground
+    maxdelay 0.000
+  end output
+  begin output
+    name m6298d6f98b84fa89a3a081182fccdde60b453d97.port2_O$[14]
+    netname <const0>
+    numprims 13
+    type output ground
+    maxdelay 0.000
+  end output
+  begin output
+    name m6298d6f98b84fa89a3a081182fccdde60b453d97.port2_O$[1]
+    netname m6298d6f98b84fa89a3a081182fccdde60b453d97.port2_O$[1]
+    numprims 10
+    type output signal
+    maxdelay 6.120
+  end output
+  begin output
+    name m6298d6f98b84fa89a3a081182fccdde60b453d97.port2_O$[2]
+    netname m6298d6f98b84fa89a3a081182fccdde60b453d97.port2_O$[2]
+    numprims 10
+    type output signal
+    maxdelay 5.042
+  end output
+  begin output
+    name m6298d6f98b84fa89a3a081182fccdde60b453d97.port2_O$[3]
+    netname m6298d6f98b84fa89a3a081182fccdde60b453d97.port2_O$[3]
+    numprims 10
+    type output signal
+    maxdelay 3.964
+  end output
+  begin output
+    name m6298d6f98b84fa89a3a081182fccdde60b453d97.port2_O$[4]
+    netname m6298d6f98b84fa89a3a081182fccdde60b453d97.port2_O$[4]
+    numprims 10
+    type output signal
+    maxdelay 2.929
+  end output
+  begin output
+    name m6298d6f98b84fa89a3a081182fccdde60b453d97.port2_O$[5]
+    netname m6298d6f98b84fa89a3a081182fccdde60b453d97.port2_O$[5]
+    numprims 9
+    type output signal
+    maxdelay 1.775
+  end output
+  begin output
+    name m6298d6f98b84fa89a3a081182fccdde60b453d97.port2_O$[6]
+    netname m6298d6f98b84fa89a3a081182fccdde60b453d97.port2_O$[6]
+    numprims 2
+    type output signal
+    maxdelay 1.117
+  end output
+  begin output
+    name m6298d6f98b84fa89a3a081182fccdde60b453d97.port2_O$[7]
+    netname <const0>
+    numprims 13
+    type output ground
+    maxdelay 0.000
+  end output
+  begin output
+    name m6298d6f98b84fa89a3a081182fccdde60b453d97.port2_O$[8]
+    netname <const0>
+    numprims 13
+    type output ground
+    maxdelay 0.000
+  end output
+  begin output
+    name m6298d6f98b84fa89a3a081182fccdde60b453d97.port2_O$[9]
+    netname <const0>
+    numprims 13
+    type output ground
+    maxdelay 0.000
+  end output
+
+end block
